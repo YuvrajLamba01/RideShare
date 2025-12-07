@@ -40,6 +40,7 @@ src/main/java/org/example/rideshare
 ├── repository/      # MongoDB Repositories
 ├── service/         # Business Logic
 └── util/            # Helper classes (JwtUtil)
+```
 
 
 ## 🔌 API Endpoints
