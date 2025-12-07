@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rideshare
+  data:
+    mongodb:
+      uri: mongodb+srv://yuvrajlamba5151_db_user:kGWsuKMSEJSlimUe@cluster0.oun44iv.mongodb.net/rideshareDB?appName=Cluster0
+
+jwt:
+  secret: mySecretKeyForJWTTokenGenerationMustBeAtLeast256BitsLong
+  expiration: 86400000
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
